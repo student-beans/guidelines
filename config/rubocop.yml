@@ -38,6 +38,9 @@ Style/CollectionMethods:
     find_all: select
     reduce: inject
 
+Style/Lambda:
+  EnforcedStyle: literal
+
 # Having this enabled causes false positives because the frozen_string_literal
 # comment already freezes the values assigned to constants
 Style/MutableConstant:
