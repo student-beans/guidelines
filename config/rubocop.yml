@@ -3,6 +3,7 @@ AllCops:
     - 'db/schema.rb'
     - 'config/**/*'
     - 'vendor/**/*'
+    - '*.gemspec'
   UseCache: false
 
 Metrics/BlockLength:
