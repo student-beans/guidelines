@@ -47,6 +47,10 @@ Style/Lambda:
 Style/MutableConstant:
   Enabled: false
 
+# This is only enabled by default in 0.49 or above. A number of apps have 0.48
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
 Layout/FirstArrayElementLineBreak:
   Enabled: true
 
