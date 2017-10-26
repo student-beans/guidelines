@@ -4,6 +4,7 @@ AllCops:
     - 'config/**/*'
     - 'vendor/**/*'
     - '*.gemspec'
+    - 'db/migrate/*.rb'
   UseCache: false
 
 Metrics/BlockLength:
